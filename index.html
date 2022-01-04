@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Room 429</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" />
+  <link rel="stylesheet" href="./style.css" />
+  <style>
+    .item1 {
+      grid-area: Area1;
+    }
+
+    .item2 {
+      grid-area: Area2;
+    }
+
+    .item3 {
+      grid-area: Area3;
+    }
+
+    .item4 {
+      grid-area: Area4;
+    }
+
+    .item5 {
+      grid-area: Area5;
+    }
+
+    .item6 {
+      grid-area: Area6;
+    }
+
+    .item7 {
+      grid-area: Area7;
+    }
+
+    .item8 {
+      grid-area: Area8;
+    }
+
+    .item9 {
+      grid-area: Area9;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        "Area1 Area1 Area9"
+        "Area1 Area1 Area5"
+        "Area2 Area4 Area7"
+        "Area6 Area8 Area3";
+    }
+
+    .grid-container>div {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="item1">
+      <div id="clock">
+        <div class="bar10"></div>
+        <div class="bar9"></div>
+        <div class="bar8"></div>
+        <div class="bar7"></div>
+        <div class="bar6"></div>
+        <div class="bar5"></div>
+        <div class="bar4"></div>
+        <div class="bar3"></div>
+        <div class="bar2"></div>
+        <div class="bar1"></div>
+        <div class="bar0"></div>
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="bar4"></div>
+        <div class="bar5"></div>
+        <div class="bar6"></div>
+        <div class="bar7"></div>
+        <div class="bar8"></div>
+        <div class="bar9"></div>
+        <div class="bar10"></div>
+        <p class="date">{{ date }}</p>
+        <p class="time">{{ time }}</p>
+        <p class="week">{{ week }}</p>
+        <div class="bar10"></div>
+        <div class="bar9"></div>
+        <div class="bar8"></div>
+        <div class="bar7"></div>
+        <div class="bar6"></div>
+        <div class="bar5"></div>
+        <div class="bar4"></div>
+        <div class="bar3"></div>
+        <div class="bar2"></div>
+        <div class="bar1"></div>
+        <div class="bar0"></div>
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="bar4"></div>
+        <div class="bar5"></div>
+        <div class="bar6"></div>
+        <div class="bar7"></div>
+        <div class="bar8"></div>
+        <div class="bar9"></div>
+        <div class="bar10"></div>
+      </div>
+    </div>
+    <div class="item2">
+      <a href="https://github.com/sierra007117"><img
+          src="https://github-readme-stats.vercel.app/api?username=Captaincheq&count_private=true&show_icons=true&theme=react&include_all_commits=yes" /></a>
+    </div>
+    <div class="item3">
+      <a href="https://github.com/sierra007117"><img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=Captaincheq&langs_count=8&layout=compact&hide=html,CSS&theme=react&custom_title=Captaincheq" /></a>
+    </div>
+    <div class="item4">
+      <a href="https://github.com/sierra007117"><img
+          src="https://github-readme-stats.vercel.app/api?username=sierra007117&count_private=true&show_icons=true&theme=monokai&include_all_commits=yes" /></a>
+    </div>
+    <div class="item5">
+      <a href="https://github.com/sierra007117"><img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=sierra007117&exclude_repo=Scandia,Elysium&langs_count=8&layout=compact&hide=html,CSS&theme=monokai&custom_title=Sierra117" /></a>
+    </div>
+    <div class="item6">
+      <a href="https://github.com/sierra007117"><img
+          src="https://github-readme-stats.vercel.app/api?username=diptoroy&count_private=true&show_icons=true&theme=radical&include_all_commits=yes" /></a>
+    </div>
+    <div class="item7">
+      <a href="https://github.com/sierra007117"><img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=diptoroy&langs_count=8&layout=compact&theme=radical&custom_title=Nimai" /></a>
+    </div>
+    <div class="item8">
+      <a href="https://github.com/sierra007117"><img
+          src="https://github-readme-stats.vercel.app/api?username=Sazzad-Anwar&count_private=true&show_icons=true&theme=bear&include_all_commits=yes" /></a>
+    </div>
+    <div class="item9">
+      <a href="https://github.com/sierra007117"><img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sazzad-Anwar&langs_count=6&layout=compact&theme=bear&custom_title=Bin" /></a>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
